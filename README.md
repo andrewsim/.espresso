@@ -39,4 +39,17 @@ Link `.gitconfig`:
 ln -s ~/sandbox/.espresso/.gitconfig ~/.gitconfig
 ```
 
+# NeoVim
 
+Install neovim.
+
+Install [dein.vim](https://github.com/Shougo/dein.vim).
+```
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+sh ./installer.sh ~/.config/nvim/bundle
+```
+
+Link `.init.vim`:
+```
+ln -s ~/sandbox/.espresso/nvim/init.vim ~/.config/nvim/init.vim
+```
