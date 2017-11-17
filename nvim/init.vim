@@ -75,7 +75,7 @@ endif
   nnoremap <leader>l :call NumberToggle()<cr>
 
 "remap escape key
-  inoremap jj <ESC>
+  inoremap jk <ESC>
 
 " backup and swp
   set backup
